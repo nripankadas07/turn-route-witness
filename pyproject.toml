@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "turn-route-witness"
+version = "0.1.0"
+description = "Find minimum integer-cost routes over incoming-edge states with exact forbidden consecutive-edge pairs and compare an unrestricted baseline."
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = []
+[project.scripts]
+turn-route-witness = "turn_route_witness:main"
+[tool.setuptools]
+py-modules = ["turn_route_witness"]

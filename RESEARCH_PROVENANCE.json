@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-20",
+  "comparables": [
+    {
+      "full_name": "Project-OSRM/osrm-backend",
+      "html_url": "https://github.com/Project-OSRM/osrm-backend",
+      "stargazers_count": 8155,
+      "pushed_at": "2026-10-17T18:33:22Z",
+      "default_branch": "master",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdx_id": "BSD-2-Clause",
+        "url": "https://api.github.com/licenses/bsd-2-clause",
+        "node_id": "MDc6TGljZW5zZTQ="
+      },
+      "description": "Open Source Routing Machine - C++ backend",
+      "observed": "2026-10-20T06:13:34.315Z",
+      "recent_open_items": [
+        {
+          "number": 7749,
+          "title": "chore(deps): bump pypa/cibuildwheel from 4.3.0 to 4.3.1",
+          "url": "https://github.com/Project-OSRM/osrm-backend/pull/7749",
+          "is_pr": true
+        },
+        {
+          "number": 7748,
+          "title": "Possible typo in bicycle profile: concrete_lanes instead of concrete:lanes",
+          "url": "https://github.com/Project-OSRM/osrm-backend/issues/7748",
+          "is_pr": false
+        },
+        {
+          "number": 7747,
+          "title": "Work with 16 exclusion classes rather than 8",
+          "url": "https://github.com/Project-OSRM/osrm-backend/issues/7747",
+          "is_pr": false
+        }
+      ]
+    },
+    {
+      "full_name": "graphhopper/graphhopper",
+      "html_url": "https://github.com/graphhopper/graphhopper",
+      "stargazers_count": 6737,
+      "pushed_at": "2026-10-19T15:12:43Z",
+      "default_branch": "master",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "description": "Open source routing engine for OpenStreetMap. Use it as Java library or standalone web server.",
+      "observed": "2026-10-20T06:13:34.337Z",
+      "recent_open_items": [
+        {
+          "number": 3417,
+          "title": "bike: \"steps\" avoidance should be stronger",
+          "url": "https://github.com/graphhopper/graphhopper/issues/3417",
+          "is_pr": false
+        },
+        {
+          "number": 3413,
+          "title": "Fix typos in docs, comments and an exception message",
+          "url": "https://github.com/graphhopper/graphhopper/pull/3413",
+          "is_pr": true
+        },
+        {
+          "number": 3411,
+          "title": "Throw as early as possible during import if referenced nodes are missing",
+          "url": "https://github.com/graphhopper/graphhopper/pull/3411",
+          "is_pr": true
+        }
+      ]
+    },
+    {
+      "full_name": "valhalla/valhalla",
+      "html_url": "https://github.com/valhalla/valhalla",
+      "stargazers_count": 6342,
+      "pushed_at": "2026-10-19T19:20:21Z",
+      "default_branch": "master",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "description": "Open Source Routing Engine for OpenStreetMap",
+      "observed": "2026-10-20T06:13:34.283Z",
+      "recent_open_items": [
+        {
+          "number": 6431,
+          "title": "Allow pedestrian routing throuh `highway=ladder`",
+          "url": "https://github.com/valhalla/valhalla/issues/6431",
+          "is_pr": false
+        },
+        {
+          "number": 6430,
+          "title": "Expose tile IDs for multiple hierarchy levels",
+          "url": "https://github.com/valhalla/valhalla/pull/6430",
+          "is_pr": true
+        },
+        {
+          "number": 6428,
+          "title": "feat: add configuration JSON schema",
+          "url": "https://github.com/valhalla/valhalla/pull/6428",
+          "is_pr": true
+        }
+      ]
+    }
+  ],
+  "query": {
+    "query": "turn restrictions routing",
+    "url": "https://github.com/search?q=turn+restrictions+routing&type=repositories&s=stars&o=desc",
+    "observed": "2026-10-20T06:18:40.954Z"
+  },
+  "highest_star_relevant_found": "Project-OSRM/osrm-backend",
+  "limits": "Most-stars site search is scoped and keyword dependent, not an exhaustive global ranking. Also read manually found established comparables. Some leading keyword results are adjacent or irrelevant. Competitors not installed/timed/stress tested. No absence, reliability, superiority or performance claim. Issues/PRs are small current samples, not evidence of an unresolved competitor-wide defect.",
+  "read_sources": "Current repository READMEs, metadata and sampled issues; relevant implementations/fixtures for SQLGlot simplify, NetworkX DAG, criticalpath, PM4Py/SNAKES Petri semantics, OSRM restrictions and automata/brics inclusion. No source copied."
+}
