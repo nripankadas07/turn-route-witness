@@ -1,0 +1,35 @@
+{
+  "occurrence": "GH-20261020",
+  "state": "VALIDATED",
+  "demand": "Inferred from the workflow and domain evidence; no verified request for this new tool.",
+  "acceptance": [
+    "Invented example takes ad,db,bc at cost4 instead of the blocked cost2 ab,bc route. A legal zero-cost loop can change the incoming edge and permit an exit.",
+    "100 fixed-seed graphs checked against exhaustive edge-state path enumeration, incoming-state counterexample, unreachable/identity route, zero cycle, invalid turns and negative-cost rejection.",
+    "Clean wheel install and installed CLI outside checkout; meaningful invalid input rejection without partial JSON."
+  ],
+  "discovery": "Public searchable README/topics and reproducible tiny examples; no outreach, adoption or growth claim.",
+  "inventory_compared": 203,
+  "mutual_distinction": "Nullable query predicates, dependency timing, token synchronization, road turn feasibility and finite-language inclusion have separate users and contracts. Shared packaging is infrastructure.",
+  "originality": "Original code and invented fixtures, AI-assisted. No third-party implementation or prose copied; standard algorithms reimplemented.",
+  "repo": "turn-route-witness",
+  "user": "Routing developers reproducing a turn-restriction bug on a small extracted directed graph.",
+  "pain": "Keeping only the cheapest arrival at a junction can discard the incoming edge needed to take a legal next turn.",
+  "capability": "Find minimum integer-cost routes over incoming-edge states with exact forbidden consecutive-edge pairs and compare an unrestricted baseline.",
+  "alternatives": [
+    "Project-OSRM/osrm-backend",
+    "graphhopper/graphhopper",
+    "valhalla/valhalla"
+  ],
+  "query": "turn restrictions routing",
+  "highest": "Project-OSRM/osrm-backend",
+  "topics": [
+    "routing",
+    "shortest-path",
+    "turn-restrictions",
+    "python"
+  ],
+  "expected": "Invented example takes ad,db,bc at cost4 instead of the blocked cost2 ab,bc route. A legal zero-cost loop can change the incoming edge and permit an exit.",
+  "limits": "Normalized directed graph only; at most200 nodes/1000 edges/5000 distinct forbidden pairs; edge costs0..10^9. Pair IDs must refer to consecutive edges. No OSM/coordinates/geocoding, multi-edge/conditional/only-turn restrictions, travel-time prediction, turn penalties or vehicle safety instructions. All unlisted pairs including U-turns are allowed. Zero-cost loops are permitted. Ties deterministic for fixed IDs; no claim of globally lexicographically smallest route. Unreachable is a finding, not malformed input.",
+  "distinct": "gpx-dwell-report analyzes recorded motion, redirect-graph checks web redirects and capacity-cut-report solves allocation flow. This is a route feasibility/cost witness for incoming-edge restrictions, not a map service.",
+  "checks": "100 fixed-seed graphs checked against exhaustive edge-state path enumeration, incoming-state counterexample, unreachable/identity route, zero cycle, invalid turns and negative-cost rejection."
+}

@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "edges": [
+    {
+      "id": "ab",
+      "from": "A",
+      "to": "B",
+      "cost": 1
+    },
+    {
+      "id": "bc",
+      "from": "B",
+      "to": "C",
+      "cost": 1
+    },
+    {
+      "id": "ad",
+      "from": "A",
+      "to": "D",
+      "cost": 2
+    },
+    {
+      "id": "db",
+      "from": "D",
+      "to": "B",
+      "cost": 1
+    }
+  ],
+  "forbidden": [
+    [
+      "ab",
+      "bc"
+    ]
+  ],
+  "start": "A",
+  "end": "C"
+}

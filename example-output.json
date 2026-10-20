@@ -1,0 +1,32 @@
+{
+  "exit_code": 0,
+  "extra_cost": 2,
+  "route": {
+    "cost": 4,
+    "edges": [
+      "ad",
+      "db",
+      "bc"
+    ],
+    "nodes": [
+      "A",
+      "D",
+      "B",
+      "C"
+    ],
+    "settled_states": 5
+  },
+  "without_restrictions": {
+    "cost": 2,
+    "edges": [
+      "ab",
+      "bc"
+    ],
+    "nodes": [
+      "A",
+      "B",
+      "C"
+    ],
+    "settled_states": 4
+  }
+}
